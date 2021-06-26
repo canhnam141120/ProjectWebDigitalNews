@@ -1,0 +1,178 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 17, 2021, 9:53:22 AM
+    Author     : DELL
+*/
+
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e5e5;
+    font-family: sans-serif;
+}
+
+.pre-header {
+    background-image: url("../img/preheader.jpg");
+    height: 7rem;
+}
+
+.banner {
+    background-image: url("../img/header.jpg");
+    height: 7.8rem;
+}
+
+.navigation {
+    background-image: url("../img/menu.jpg");
+    height: 3.2rem;
+}
+
+footer {
+    background-image: url("../img/footer.jpg");
+    height: 7.7rem;
+}
+
+.pre-header,
+.navigation,
+.banner,
+.page-body,
+footer {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.page-body {
+    background-image: url("../img/bg.jpg");
+    background-repeat: repeat-y;
+}
+
+.container {
+    width: 768px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.page-body .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.left,
+.right {
+    padding: 20px;
+}
+
+.left {
+    width: 70%;
+}
+
+.article-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.right {
+    width: 30%;
+    border-left: 3px dashed #e5e5e5;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-list,
+.logo {
+    padding: 7px 20px;
+}
+
+.title {
+    color: #5D716D;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.meta-info {
+    border-top: 2px solid #eee;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    text-align: right;
+    color: #5D716D;
+    font-weight: 600;
+}
+
+.line-height-fix {
+    line-height: 1.5rem;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+.block {
+    margin-bottom: 2rem;
+}
+
+.newest-article li {
+    margin-bottom: 1rem;
+}
+
+.newest-article li a {
+    color: #5D716D;
+}
+
+.content {
+    font-size: 1rem;
+}
+
+#search-form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#search-input {
+    border: 2px dashed #5D716D;
+    padding: 5px;
+}    
+
+#search-btn {
+    padding: 5px;
+    background: none;
+    font-weight: bold;
+}
+
+#error {
+    margin-top: 0.5rem;
+    color: red;
+    font-size: 1.3rem;
+}

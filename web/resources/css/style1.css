@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 17, 2021, 9:53:46 AM
+    Author     : DELL
+*/
+
+/*nếu cả header.jsp và news.jsp đều có html và body thì phân biệt kiểu gì*/
+html {/*news.jsp*/
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    /*width và heigh sẽ bao gồm cho cả phần nội dung, padding và border nhưng không bao gồm margin.*/
+}
+
+body {/*news.jsp*/
+    background-color: #e5e5e5;
+    font-family: sans-serif;
+}
+
+
+.pre-header {/*header.jsp*/
+    background-image: url("../img/preheader.jpg");
+    height: 7rem;
+}
+
+.banner {/*header.jsp*/
+    background-image: url("../img/header.jpg");
+    height: 7.8rem;
+}
+
+.navigation {/*header.jsp*/
+    background-image: url("../img/menu.jpg");
+    height: 3.2rem;
+}
+
+.pre-header,/*header.jsp*/
+.navigation,/*header.jsp*/
+.banner,/*header.jsp*/
+.page-body,/*news.jsp*/
+footer {/*footer.jsp*/
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {/*header.jsp*/
+    width: 768px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.page-body {/*news.jsp*/
+    background-image: url("../img/bg.jpg");
+    background-repeat: repeat-y;
+}
+
+.page-body /*news.jsp*/
+.container {/*header.jsp*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.left {/*news.jsp*/
+    width: 70%;
+}
+
+.right {/*news.jsp*/
+    width: 30%;
+}
+
+.nav-list {/*header.jsp*/
+    list-style: none;
+}
+
+.nav-list li {/*header.jsp*/
+    display: inline-block;
+}
+
+.logo {/*header.jsp*/
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link {/*header.jsp*/
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-list,/*header.jsp*/
+.logo {/*header.jsp*/
+    padding: 7px 20px;
+}
+
+footer { /*footer.jsp*/
+    background-image: url("../img/footer.jpg");
+    height: 7.8rem;
+}
+
